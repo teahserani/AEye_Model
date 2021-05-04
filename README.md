@@ -2,6 +2,8 @@
 ## Introduction 
 Multi-class image classifer for Fundus Opthamologic Medical Imagings
 
+Authors: Teah Serani, Christina Kang, George Saab and Frank Guan
+
 Detects the following disease:
 * Normal
 * Diabetic Retinopathy 
