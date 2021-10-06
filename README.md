@@ -1,5 +1,5 @@
-# AEYE
-## Introduction 
+
+# Introduction 
 Multi-class image classifer for Fundus Opthamologic Medical Imagings
 
 Authors: Teah Serani, Christina Kang, George Saab and Frank Guan
@@ -23,15 +23,16 @@ Detects the following disease:
 ![e](images/acc_loss.png)
 
 
-## Using model 
-
+# Using model 
 ```python
 
 from keras.models import Model, load_model
 model= load_model(PATH/model.h5)
 ```
 
-## How to Run and Train Model Locally 
+# How to Run and Train Model Locally 
+### training_model.ipynb
+![e](images/model.png)
 
 Download Jupyter Notebooks, Anaconda, Python 3 
 
@@ -46,7 +47,7 @@ Have the following Python Libraries Installed
 * pandas 
 * cv2
 * matplotlib
-* Tensorflow
+* Tensorflow 2
 * Keras 
 * IPython 
 * PIL 
@@ -67,10 +68,10 @@ The model was trained and created in AWS Sagemaker. Please note comments to make
 ![e](GradCam_Examples/Glaucoma.png)
 
 
-## Website 
+# Website 
 ![e](images/website.png)
 
-## Data
+# Data
 
  Source | Diease 
   --- | --- 
